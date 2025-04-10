@@ -98,7 +98,7 @@ var randomItem = selectRandomItem(items);
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TECH-FSD",
+title: "TECH HORIZON SCHOOL INC",
 thumbnailUrl: "https://files.catbox.moe/1v9101.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e",
 mediaType: 1,
@@ -135,7 +135,7 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TECH-FSD ",
+title: "TECH HORIZON SCHOOL INC",
 thumbnailUrl: "https://files.catbox.moe/1v9101.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e",
 mediaType: 2,

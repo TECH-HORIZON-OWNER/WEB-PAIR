@@ -103,7 +103,7 @@ var randomItem = selectRandomItem(items);
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TECH-FSD",
+title: "TECH HORIZON SCHOOL INC",
 thumbnailUrl: "https://raw.githubusercontent.com/TECH-HORIZON-OWNER/PROJECT-FSD/refs/heads/main/images/horizon%20connected.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e",
 mediaType: 1,
@@ -119,7 +119,7 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "HORIZON-MD",
+title: "TECH HORIZON SCHOOL INC",
 thumbnailUrl: "https://raw.githubusercontent.com/TECH-HORIZON-OWNER/PROJECT-FSD/refs/heads/main/images/horizon%20connected.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e",
 mediaType: 2,
