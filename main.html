@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <title>TECH HORIZON SCHOOL INC</title>
+  <style>
+    body {
+      background-image: url("https://i.ibb.co/Wz2j7N9/ROMEK-XD-V2.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      height: 100vh;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .logo img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8); /* Slightly darker for readability */
+      padding: 30px 50px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Heading */
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    /* Button Styles */
+    .button {
+      display: block;
+      width: 220px;
+      margin: 15px auto;
+      padding: 12px 20px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      color: white;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      border: 2px solid;
+    }
+
+    /* Neon Glow Colors */
+    .button:nth-child(2) {
+      border-color: #ff007f;
+      background: rgba(255, 0, 127, 0.2);
+      box-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 30px #ff007f;
+    }
+
+    .button:nth-child(3) {
+      border-color: #00ffab;
+      background: rgba(0, 255, 171, 0.2);
+      box-shadow: 0 0 10px #00ffab, 0 0 20px #00ffab, 0 0 30px #00ffab;
+    }
+
+    .button:nth-child(4) {
+      border-color: #007fff;
+      background: rgba(0, 127, 255, 0.2);
+      box-shadow: 0 0 10px #007fff, 0 0 20px #007fff, 0 0 30px #007fff;
+    }
+
+    .button:nth-child(5) {
+      border-color: #ffab00;
+      background: rgba(255, 171, 0, 0.2);
+      box-shadow: 0 0 10px #ffab00, 0 0 20px #ffab00, 0 0 30px #ffab00;
+    }
+
+    .button:nth-child(6) {
+      border-color: #ab00ff;
+      background: rgba(171, 0, 255, 0.2);
+      box-shadow: 0 0 10px #ab00ff, 0 0 20px #ab00ff, 0 0 30px #ab00ff;
+    }
+
+    .button:nth-child(7) {
+      border-color: #ff4500;
+      background: rgba(255, 69, 0, 0.2);
+      box-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff4500;
+    }
+    
+        .button:nth-child(8) {
+      border-color: #654321;
+      background: rgba(255, 69, 0, 0.2);
+      box-shadow: 0 0 10px #654321, 0 0 20px #ff4500, 0 0 30px #654321;
+    }
+    
+        .button:nth-child(9) {
+      border-color: #000080;
+      background: rgba(255, 69, 0, 0.2);
+      box-shadow: 0 0 10px #000080, 0 0 20px #ff4500, 0 0 30px #000080;
+    }
+
+    /* Button Hover Effect */
+    .button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px currentColor, 0 0 40px currentColor, 0 0 60px currentColor;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    footer span {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- WhatsApp Logo -->
+  <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <h1>TECH HORIZON SCHOOL</h1>
+    <a href="/qr" class="button" target="_blank">CONTACT OWNER</a>
+    <a href="/pair" class="button" target="_blank">GITHUB PROFILE</a>
+    <a href="https://github.com/ROMEKTRICRS/ROMEK-XD-V2" class="button" target="_blank">WHATSAPP GROUP</a>
+    <a href="https://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e" class="button" target="_blank">WHATSAPP-Channel</a>
+    <a href="https://romek-xd.vercel.app/" class="button" target="_blank">HORIZON-MD-V2</a>
+    <a href="https://youtube.com/@ROMEK-XD9" class="button" target="_blank">HORIZON-MD-V1</a>
+    <a href="/pair" class="button" target="_blank">PAIR CODE</a>
+        <a href="/qr" class="button" target="_blank">QR CODE</a>
+
+    <footer>
+      TECH HORIZON SCHOOL INC &copy; <span id="currentYear"></span>
+    </footer>
+  </div>
+
+  <script>
+    // Update current year dynamically
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

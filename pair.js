@@ -75,37 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "HORIZON-MD~" + string_session;
+                        let md = "SENU-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝐇𝐎𝐑𝐈𝐙𝐎𝐍 𝐌𝐃 𝐕𝟏*
+                        let desc = `*Hello there SENU MD User! 👋🏻* 
 
-𝙷𝚎𝚕𝚕𝚘 🤩 𝙲𝚘𝚗𝚐𝚛𝚊𝚝𝚜 𝚜𝚎𝚜𝚜𝚒𝚘𝚗 𝚒𝚍 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚢 ✅
+> Do not share your session id with anyone.
 
-*✅𝙱𝚘𝚝 𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚗 𝚂𝚝𝚊𝚝𝚞𝚜:* 
-  *𝙷𝙾𝚁𝙸𝚉𝙾𝙽 𝙼𝙳 𝙱𝙾𝚃* 𝚒𝚜 𝚗𝚘𝚠 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 𝚝𝚘 𝚝𝚑𝚒𝚜 𝚍𝚎𝚟𝚒𝚌𝚎
+ *Thanks for using SENU-MD ❤️* 
 
- ⚙️ *𝙿𝚛𝚎𝚏𝚒𝚡:* (Use the bot’s prefix for commands) 
+> Join WhatsApp Channel :- ⤵️
+ 
+https://whatsapp.com/channel/0029Vb4v5Hs5a243djC8eu1p
 
-*👨‍💻 𝙲𝚛𝚎𝚊𝚝𝚘𝚛:* *𝚃𝙴𝙲𝙷 𝚂𝙷𝙰𝙽* 
-*🏢 𝙾𝚛𝚐𝚊𝚗𝚒𝚣𝚊𝚝𝚒𝚘𝚗:* *𝚃𝙴𝙲𝙷 𝙷𝙾𝚁𝙸𝚉𝙾𝙽 𝚂𝙲𝙷𝙾𝙾𝙻 𝙸𝙽𝙲.* 
-*🗓️ 𝙲𝚛𝚎𝚊𝚝𝚎𝚍:* *2025*
+Dont forget to fork the repo ⬇️
 
- 🌟 *𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚞𝚛 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚏𝚘𝚛 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 ⬇️* 
- https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e 
+https://github.com/TECH-FSD-01/SENU-MD-V2
 
-*🔄 𝙽𝚎𝚠 𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜 𝚌𝚘𝚖𝚒𝚗𝚐 𝚜𝚘𝚘𝚗.𝚂𝚝𝚊𝚢 𝚝𝚞𝚗𝚎𝚍!* 
-
-𝐇𝐎𝐑𝐈𝐙𝐎𝐍 𝐌𝐃 𝐕𝟏
-
-> *𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝚃𝙴𝙲𝙷 𝚂𝙷𝙰𝙽*
-> *𝙵𝙾𝚄𝙽𝙳𝙴𝚁 𝙾𝙵 𝚃𝙴𝙲𝙷 𝙷𝙾𝚁𝙸𝚉𝙾𝙽 𝚂𝙲𝙷𝙾𝙾𝙻 𝙸𝙽𝙲*`; 
+> *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TECH HORIZON SCHOOL INC",
-thumbnailUrl: "https://raw.githubusercontent.com/TECH-HORIZON-OWNER/PROJECT-FSD/refs/heads/main/images/horizon%20connected.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e",
+title: "TECH-FSD",
+thumbnailUrl: "https://raw.githubusercontent.com/TECH-FSD-01/PROJECT-FSD/refs/heads/main/images/Senu-MD-Connected.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb4v5Hs5a243djC8eu1p",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -114,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy HORIZON-MD*\n\n ◦ *Github:* https://github.com/TECH-HORIZON-OWNER/HORIZON-MD`;
+                            let desc = `*Don't Share with anyone this code use for deploy SENU-MD*\n\n ◦ *Github:* https://github.com/TECH-FSD-01/SENU-MD-V2`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TECH HORIZON SCHOOL INC",
-thumbnailUrl: "https://raw.githubusercontent.com/TECH-HORIZON-OWNER/PROJECT-FSD/refs/heads/main/images/horizon%20connected.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e",
+title: "SENU-MD",
+thumbnailUrl: "https://raw.githubusercontent.com/TECH-FSD-01/PROJECT-FSD/refs/heads/main/images/Senu-MD-Connected.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb4v5Hs5a243djC8eu1p",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
