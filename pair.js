@@ -123,7 +123,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "TECH HORIZON SCHOOL INC",
-thumbnailUrl: "https://i.ibb.co/Wz2j7N9/ROMEK-XD-V2.jpg"",
+thumbnailUrl: "https://i.ibb.co/Wz2j7N9/ROMEK-XD-V2.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbANgdT5fM5ShIUQ2m0e",
 mediaType: 2,
 renderLargerThumbnail: true,
